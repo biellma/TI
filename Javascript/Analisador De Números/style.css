@@ -1,0 +1,94 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    min-height: 100%;
+    width: 100%;
+    color: white;
+    font-family: sans-serif;
+    background-image: url("img/calculadora.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+    margin-top: 10px;
+    text-align: center;
+}
+
+section {
+    width: 550px;
+    margin: auto;
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.603);
+}
+
+div {
+    padding: 10px;
+    color: black;
+    text-align: center;
+}
+
+#imagem {
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+    display: none;
+}
+
+#button {
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: sans-serif;
+    border-radius: 3px;
+    font-weight: 700;
+    background-color: rgb(165, 16, 16);
+    color: white;
+}
+
+input {
+    margin: 5px;
+}
+
+#ano {
+    width: 110px;
+}
+
+#glista {
+    width: 50%;
+}
+
+#lista {
+    text-align: left;
+}
+
+#btnAdicionar,
+#btnfinalizar,
+#btnlimpar {
+    background-color: rgb(165, 16, 16);
+    color: white;
+    padding: 3px;
+}
+
+#btnfinalizar {
+    padding: 5px;
+}
+
+#res {
+    text-align: justify;
+}
+
+#res p {
+    padding: 5px;
+}
+
+strong {
+    color: rgb(165, 16, 16);
+}

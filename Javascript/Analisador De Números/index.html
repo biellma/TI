@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Analisador de Números</title>
+</head>
+<body>
+    
+        <header>
+        <h1>Adiciona e calcula valores!</h1>
+    </header>
+    <section>
+        <div id="lista">
+            Digite um número de 0 a 100:
+            <input type="number" id="num" min="0" max="100">
+            <input type="button" value="Adicionar" id="btnAdicionar" onclick="adicionar()">
+            <input type="button" value="Limpar" id="btnlimpar" onclick="limpar()">
+            <br>
+            <select name="lista" id="glista" size="10">
+            </select>
+            <br>
+            <input type="button" value="Calcular" id="btnfinalizar" onclick="finalizar()">  
+        </div>
+
+        <div id="res">
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

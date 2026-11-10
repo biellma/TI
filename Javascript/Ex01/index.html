@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 01</title>
+</head>
+<body>
+    
+     <div>
+        <h1>Notas:</h1>
+        <input id="n1" type="number" placeholder="Digite a 1º nota"> + 
+        <input id="n2" type="number" placeholder="Digite a 2º nota">
+        <input id="somar" type="button" onclick="somar()" value="Somar">
+        <h4 id="res"></h4>
+        <!-- <h3 id="resp2"></h3> -->
+    
+    </div>
+
+    
+    
+    <script>
+
+          function somar(){
+            
+            var n1 = window.document.getElementById('n1')
+            var n2 = window.document.getElementById('n2')
+            var res = window.document.getElementById('res')
+            
+
+            var c1 = Number(n1.value)
+            var c2 = Number(n2.value)
+           
+            let media = (c1 + c2)/2
+           
+            if (media >= 60){
+                console.log(`Aprovado`)
+            }
+            else{
+                console.log(`Reprovado`)
+            }
+        }
+
+    </script>
+</body>
+</html>

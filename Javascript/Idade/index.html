@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadore de Idade</title>
+</head>
+<body>
+    
+ <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+    <section>
+        <div>
+            <p>
+                Ano Nascimento:
+                <input type="number" id="ano" min="1915" max="2027" placeholder="De 1915 à 2027">
+            </p>
+            <p>
+                Sexo:
+                <input type="radio" name="sexo" id="masc">
+                <label for="sexo">Masculino</label>
+
+                <input type="radio" name="sexo" id="fem" checked>
+                <label for="sexo">Feminino</label>
+                
+                <input id="button" type="button" value="Verificar" onclick="verificar()">
+            </p>
+        </div>
+        <div>
+            <img id="imagem" src="img/bebemenina.webp" alt="Criança Menino">
+            <p id="texto"></p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
