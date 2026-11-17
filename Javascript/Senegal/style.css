@@ -151,8 +151,8 @@ main {
 
 .menu {
     position: absolute;
-    top: 76px;
-    left: 18px;
+    top: 16px;
+    right: 18px;
     z-index: 10;
 }
 .hamburguer {
@@ -190,6 +190,8 @@ main {
     box-shadow: 0 10px 25px rgba(0,0,0,0.25);
     min-width: 240px;
     text-align: left;
+    position: absolute;
+    right: 0;
 }
 .menu-links.aberto { display: block; }
 .menu-links li { border-bottom: 1px solid #eee; }
@@ -229,8 +231,9 @@ main {
     }
 
     .menu {
-        top: 60px;
-        left: 12px;
+    top: 12px;
+    right: 12px;
+    left: auto;
     }
 
     .menu-links {
@@ -257,10 +260,10 @@ main {
 
 .bandeira-img {
     position: absolute;
-    top: 16px;
-    left: 18px;
-    width: 72px;
-    height: 48px;
+    top: 30px;
+    left: 50px;
+    width: 150px;
+    height: 85px;
     object-fit: cover;
     border: 2px solid rgba(255, 255, 255, 0.9);
     border-radius: 4px;
