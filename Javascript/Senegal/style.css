@@ -183,15 +183,17 @@ main {
 .menu-links {
     display: none;
     list-style: none;
-    margin-top: 8px;
     background: #fff;
     border-radius: 10px;
-    overflow: hidden;
     box-shadow: 0 10px 25px rgba(0,0,0,0.25);
     min-width: 240px;
     text-align: left;
-    position: absolute;
-    right: 0;
+    position: fixed;
+    top: 64px;
+    right: 18px;
+    z-index: 9999;
+    max-height: calc(100vh - 80px);
+    overflow-y: auto;
 }
 .menu-links.aberto { display: block; }
 .menu-links li { border-bottom: 1px solid #eee; }
