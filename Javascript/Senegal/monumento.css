@@ -273,3 +273,39 @@ main {
     z-index: 10;
 }
 
+.img3 {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.corpo {
+    overflow: hidden;
+    max-width: 820px;
+    width: 100%;
+}
+
+.corpo .img,
+.corpo .img2,
+.corpo .img3,
+.corpo .img4,
+.corpo .img5 {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto 16px auto;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.corpo .img img,
+.corpo .img2 img,
+.corpo .img3 img,
+.corpo .img4 img,
+.corpo .img5 img {
+    width: 100% ;
+    max-width: 100% ;
+    height: auto ;
+    display: block;
+    object-fit: cover;
+    box-sizing: border-box;
+}
